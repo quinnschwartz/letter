@@ -1,0 +1,8 @@
+#letter {
+  display: none;
+}
+
+.col-md-5 {
+  display: inline-block;
+  margin-left: 27%;
+}
