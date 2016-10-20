@@ -1,9 +1,8 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function(event) {
+  $("#blanks").submit(function(event) {
     var personInput = $("input#person").val();
 
-    $(".person").text(personInput);
-
+    $(".person").text(personInput.toUpperCase());
     $("#letter").show();
 
    event.preventDefault();
